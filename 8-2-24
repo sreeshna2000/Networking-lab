@@ -1,0 +1,74 @@
+[mca@localhost ~]$ ls -l
+total 4
+drwxr-xr-x. 3 mca mca   18 Aug 24 05:56 Desktop
+drwxr-xr-x. 6 mca mca   78 Dec 14 04:43 Documents
+drwxr-xr-x. 2 mca mca  209 Dec  2 04:15 Downloads
+drwxrwxr-x. 2 mca mca    6 Aug 24 05:56 mongodata
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Music
+drwxr-xr-x. 2 mca mca   19 Nov 29 00:15 Pictures
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Public
+-rw-r--r--. 1 mca mca 1401 Nov 17 00:41 rank.c
+drwxr-xr-x. 2 mca mca    6 Sep 15 04:41 rishan
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Templates
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Videos
+[mca@localhost ~]$ ls -i
+      156 Desktop        16080 mongodata  402653333 Public  268580818 Templates
+      157 Documents  134217881 Music          31827 rank.c  402653334 Videos
+134217880 Downloads  268580819 Pictures       15921 rishan
+[mca@localhost ~]$ echo sreeshna
+sreeshna
+[mca@localhost ~]$ echo "what is your name";read
+what is your name
+sreeshna
+[mca@localhost ~]$ ls -o
+total 4
+drwxr-xr-x. 3 mca   18 Aug 24 05:56 Desktop
+drwxr-xr-x. 6 mca   78 Dec 14 04:43 Documents
+drwxr-xr-x. 2 mca  209 Dec  2 04:15 Downloads
+drwxrwxr-x. 2 mca    6 Aug 24 05:56 mongodata
+drwxr-xr-x. 2 mca    6 Apr  7  2022 Music
+drwxr-xr-x. 2 mca  113 Feb  8 05:15 Pictures
+drwxr-xr-x. 2 mca    6 Apr  7  2022 Public
+-rw-r--r--. 1 mca 1401 Nov 17 00:41 rank.c
+drwxr-xr-x. 2 mca    6 Sep 15 04:41 rishan
+drwxr-xr-x. 2 mca    6 Apr  7  2022 Templates
+drwxr-xr-x. 2 mca    6 Apr  7  2022 Videos
+[mca@localhost ~]$ ls -lh
+total 4.0K
+drwxr-xr-x. 3 mca mca   18 Aug 24 05:56 Desktop
+drwxr-xr-x. 6 mca mca   78 Dec 14 04:43 Documents
+drwxr-xr-x. 2 mca mca  209 Dec  2 04:15 Downloads
+drwxrwxr-x. 2 mca mca    6 Aug 24 05:56 mongodata
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Music
+drwxr-xr-x. 2 mca mca  160 Feb  8 05:16 Pictures
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Public
+-rw-r--r--. 1 mca mca 1.4K Nov 17 00:41 rank.c
+drwxr-xr-x. 2 mca mca    6 Sep 15 04:41 rishan
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Templates
+drwxr-xr-x. 2 mca mca    6 Apr  7  2022 Videos
+[mca@localhost ~]$ ls -f
+.             .bash_profile  .esd_auth      Desktop    Documents  .pki           .swp            mongodata      .viminfo
+..            .bashrc        .ICEauthority  Downloads  Music      .bash_history  rishan          .mongorc.js    .gitconfig
+.mozilla      .zshrc         .local         Templates  Pictures   .git           rank.c          .dbshell
+.bash_logout  .config        .cache         Public     Videos     .ssh           .mysql_history  .pgm30.sh.swp
+[mca@localhost ~]$ ls -s
+total 4
+0 Desktop  0 Documents  0 Downloads  0 mongodata  0 Music  0 Pictures  0 Public  4 rank.c  0 rishan  0 Templates  0 Videos
+[mca@localhost ~]$ ls -d
+.
+[mca@localhost ~]$ ls -t
+Pictures  Documents  Downloads  rank.c  rishan  mongodata  Desktop  Videos  Music  Public  Templates
+[mca@localhost ~]$ ls -1
+Desktop
+Documents
+Downloads
+mongodata
+Music
+Pictures
+Public
+rank.c
+rishan
+Templates
+Videos
+[mca@localhost ~]$ 
+
